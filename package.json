@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "check": "pnpm lint && pnpm parse",
     "lint": "eslint .",
@@ -18,13 +21,23 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "@eslint/compat": "^1.1.0",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.5.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-typescript": "^18.0.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.13.1"
+  },
   "devDependencies": {
     "@eslint/compat": "1.1.0",
     "@eslint/eslintrc": "3.1.0",
     "@eslint/js": "9.5.0",
     "@typescript-eslint/eslint-plugin": "7.13.1",
     "@typescript-eslint/parser": "7.13.1",
-    "acorn": "8.12.0",
     "copyfiles": "2.4.1",
     "eslint": "8.56.0",
     "eslint-config-airbnb-typescript": "18.0.0",
