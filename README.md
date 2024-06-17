@@ -13,6 +13,18 @@ Code structures and patterns that are intended to be generic and reusable. This 
 - [nodejs 20+](nodejs.org)
 - [pnpm 9+](pnpm.io)
 
+## ⚙️ Environments
+
+Set up required environment.  
+Authenticate with npm, ensure to have the necessary credentials set in `.npmrc` file.
+
+```bash
+# service environments
+# check file information
+$ cp .npmrc.example .npmrc
+```
+
+
 ## 📦 Installation
 
 Install dependencies and execute post-install processes.
@@ -59,7 +71,7 @@ $ pnpm build
 *Upon running the build command, a folder named `/dist` will be created, containing the build output.*
 
 ## 🚀 Publish
-This section details the steps for publishing the package to npm.  
+Publishing the package to npm.  
 Note that npm authorization is required for publishing. Ensure `.npmrc` file contains the necessary authentication information.
 
 ```bash
