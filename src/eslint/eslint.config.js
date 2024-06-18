@@ -24,7 +24,7 @@ export default [
     },
   },
   {
-    ignores: ['**/*.js'],
+    ignores: ['**/*.js', 'dist/'],
   },
   {
     files: ['**/*.{ts,tsx}'],
