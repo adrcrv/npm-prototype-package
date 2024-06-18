@@ -15,11 +15,11 @@
     "check": "pnpm lint && pnpm parse",
     "lint": "eslint .",
     "parse": "tsc -p tsconfig.json --noEmit",
-    "build": "pnpm build:static && pnpm build:code && pnpm build:prepare",
+    "build": "pnpm clean && pnpm build:static && pnpm build:code && pnpm build:prepare",
     "build:code": "tsc -p tsconfig.json",
     "build:static": "copyfiles -u 1 -e './src/**/*.ts' -a ./src/**/* ./dist",
     "build:prepare": "cp package.json .npmrc ./dist",
-    "publish:dist": "pnpm publish ./dist"
+    "push": "pnpm publish ./dist"
   },
   "keywords": [],
   "author": "",
