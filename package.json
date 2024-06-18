@@ -15,7 +15,7 @@
     "build:core": "tsc -p tsconfig.json",
     "build:static": "copyfiles -u 1 -a ./src/**/*.md ./dist",
     "build:prepare": "cp package.json .npmrc ./dist",
-    "publish": "pnpm publish ./dist",
+    "publish:dist": "pnpm publish ./dist",
     "postbuild": "./src/scripts/postinstall.sh"
   },
   "keywords": [],
