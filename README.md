@@ -60,9 +60,11 @@ Run automated tests to validate functionality and behavior.
 $ pnpm test
 ```
 
-Build the project to generate compiled output.
 
 ## 🛠️ Build
+
+Build the project to generate compiled output.
+
 ```bash
 # build
 $ pnpm build
