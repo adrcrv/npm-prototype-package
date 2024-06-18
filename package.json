@@ -8,6 +8,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
+    "clean": "rm -rf ./dist",
     "check": "pnpm lint && pnpm parse",
     "lint": "eslint .",
     "parse": "tsc -p tsconfig.json --noEmit",
@@ -15,8 +16,7 @@
     "build:code": "tsc -p tsconfig.json",
     "build:static": "copyfiles -u 1 -e './src/**/*.ts' -a ./src/**/* ./dist",
     "build:prepare": "cp package.json .npmrc ./dist",
-    "publish:dist": "pnpm publish ./dist",
-    "postbuild": "./src/scripts/postinstall.sh"
+    "publish:dist": "pnpm publish ./dist"
   },
   "keywords": [],
   "author": "",
