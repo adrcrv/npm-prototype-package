@@ -1,1 +1,1 @@
-cp ./src/readme/CODE_OF_CONDUCT.md ./CODE_OF_CONDUCT.md
+cp ./node_modules/readme/CODE_OF_CONDUCT.md ./CODE_OF_CONDUCT.md

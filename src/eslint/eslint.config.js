@@ -20,6 +20,7 @@ export default [
     languageOptions: {
       parserOptions: {
         project: './tsconfig.json',
+        sourceType: "module",
       },
     },
   },
