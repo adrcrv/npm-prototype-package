@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "bin": {
+    "postinstall": "./scripts/postinstall.sh"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
