@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "nat:postinstall": "./scripts/postinstall.sh"
+    "nat": "./scripts/cli.sh"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
