@@ -1,5 +1,5 @@
 {
-  "name": "npm-prototype-package",
+  "name": "@adrcrv/npm-prototype-package",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
